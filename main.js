@@ -5,5 +5,5 @@ if (number % 2 == 0){
 } else{
     number = Number(number)
     console.log(number + 1);
-}7
+}
    
