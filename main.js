@@ -4,11 +4,11 @@ if(isNaN(number)) {
   console.log("L'input inserito non è un numero!");
 } else {
   if(number % 2 == 0) {
-    number = Number(number)
+    number = Number(number);
     console.log(number);
   } else {
-    number = Number(number)
-    console.log(number + 1);
+    number = Number(number);
+    number += 1;
+    console.log(number);
   }
 }
-   
